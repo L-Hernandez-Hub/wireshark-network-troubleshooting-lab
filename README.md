@@ -11,27 +11,27 @@ This project demonstrates hands-on network analysis using Wireshark in a Windows
 
 ## Steps
 
-### 1: Launch Wireshark and Select Interface
+### 1. Launch Wireshark and Select Interface
 Opened Wireshark and selected the active Ethernet interface to begin capturing live network traffic.
 
 ![Screenshot 1](1-wireshark-interface.png)
 
-Description:  
+**Description:**
 Wireshark launched and active Ethernet interface selected for packet capture.
 
 ---
 
-### 2: Capture Live Network Traffic
+### 2. Capture Live Network Traffic
 Started packet capture and generated traffic by visiting websites and running ping commands.
 
 ![Screenshot 2](2-full-capture.png)
 
-Description:  
+**Description:**
 Live network traffic captured showing communication between local machine and external servers.
 
 ---
 
-### 3: Analyze DNS Traffic
+### 3. Analyze DNS Traffic
 Applied a DNS filter to observe how domain names are resolved into IP addresses.
 
 **Filter Used:**
@@ -41,12 +41,12 @@ dns
 
 ![Screenshot 3](3-dns-filter.png)
 
-Description:  
+**Description:**
 DNS queries and responses captured, showing domain name resolution to IP addresses.
 
 ---
 
-### 4: Analyze ICMP (Ping) Traffic
+### 4. Analyze ICMP (Ping) Traffic
 Filtered ICMP traffic to verify connectivity between the local machine and an external host.
 
 **Filter Used:**
@@ -56,12 +56,12 @@ icmp
 
 ![Screenshot 4](4-icmp-filter.png)
 
-Description:  
+**Description:**
 ICMP echo requests and replies confirming successful network connectivity.
 
 ---
 
-### 5: Analyze TCP Connections
+### 5. Analyze TCP Connections
 Filtered TCP traffic to observe connection behavior between the client and remote servers.
 
 **Filter Used:**
@@ -71,12 +71,12 @@ tcp
 
 ![Screenshot 5](5-tcp-filter.png)
 
-Description:  
+**Description:**
 TCP communication showing connection establishment and data transfer between systems.
 
 ---
 
-### 6: Analyze Secure Traffic (TLS)
+### 6. Analyze Secure Traffic (TLS)
 Filtered TLS traffic to observe encrypted communication with external servers.
 
 **Filter Used:**
@@ -86,12 +86,12 @@ tls
 
 ![Screenshot 6](6-tls-filter.png)
 
-Description:  
+**Description:**
 Encrypted HTTPS traffic captured, demonstrating secure communication between client and server.
 
 ---
 
-### 7: Identify Network Performance Issues
+### 7. Identify Network Performance Issues
 Applied a retransmission filter to identify potential network issues.
 
 **Filter Used:**
@@ -101,7 +101,7 @@ tcp.analysis.retransmission
 
 ![Screenshot 7](7-retransmission.png)
 
-Description:  
+**Description:**
 TCP retransmissions detected, indicating minor packet delay or retransmission during communication.
 
 ---
