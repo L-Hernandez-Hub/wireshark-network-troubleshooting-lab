@@ -9,9 +9,9 @@ This project demonstrates hands-on network analysis using Wireshark in a Windows
 - Windows 11 Pro Virtual Machine (UTM)
 - Wireshark Application
 
----
+## Steps
 
-## Step 1: Launch Wireshark and Select Interface
+## 1: Launch Wireshark and Select Interface
 Opened Wireshark and selected the active Ethernet interface to begin capturing live network traffic.
 
 ![Screenshot 1](1-wireshark-interface.png)
@@ -21,7 +21,7 @@ Wireshark launched and active Ethernet interface selected for packet capture.
 
 ---
 
-## Step 2: Capture Live Network Traffic
+## 2: Capture Live Network Traffic
 Started packet capture and generated traffic by visiting websites and running ping commands.
 
 ![Screenshot 2](2-full-capture.png)
@@ -31,7 +31,7 @@ Live network traffic captured showing communication between local machine and ex
 
 ---
 
-## Step 3: Analyze DNS Traffic
+## 3: Analyze DNS Traffic
 Applied a DNS filter to observe how domain names are resolved into IP addresses.
 
 **Filter Used:**
@@ -46,7 +46,7 @@ DNS queries and responses captured, showing domain name resolution to IP address
 
 ---
 
-## Step 4: Analyze ICMP (Ping) Traffic
+## 4: Analyze ICMP (Ping) Traffic
 Filtered ICMP traffic to verify connectivity between the local machine and an external host.
 
 **Filter Used:**
@@ -61,7 +61,7 @@ ICMP echo requests and replies confirming successful network connectivity.
 
 ---
 
-## Step 5: Analyze TCP Connections
+## 5: Analyze TCP Connections
 Filtered TCP traffic to observe connection behavior between the client and remote servers.
 
 **Filter Used:**
@@ -76,7 +76,7 @@ TCP communication showing connection establishment and data transfer between sys
 
 ---
 
-## Step 6: Analyze Secure Traffic (TLS)
+## 6: Analyze Secure Traffic (TLS)
 Filtered TLS traffic to observe encrypted communication with external servers.
 
 **Filter Used:**
@@ -91,7 +91,7 @@ Encrypted HTTPS traffic captured, demonstrating secure communication between cli
 
 ---
 
-## Step 7: Identify Network Performance Issues
+## 7: Identify Network Performance Issues
 Applied a retransmission filter to identify potential network issues.
 
 **Filter Used:**
