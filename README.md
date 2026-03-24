@@ -16,7 +16,7 @@ Opened Wireshark and selected the active Ethernet interface to begin capturing l
 
 ![Screenshot 1](1-wireshark-interface.png)
 
-Small description:  
+Description:  
 Wireshark launched and active Ethernet interface selected for packet capture.
 
 ---
@@ -26,7 +26,7 @@ Started packet capture and generated traffic by visiting websites and running pi
 
 ![Screenshot 2](2-full-capture.png)
 
-Small description:  
+Description:  
 Live network traffic captured showing communication between local machine and external servers.
 
 ---
@@ -41,7 +41,7 @@ dns
 
 ![Screenshot 3](3-dns-filter.png)
 
-Small description:  
+Description:  
 DNS queries and responses captured, showing domain name resolution to IP addresses.
 
 ---
@@ -56,7 +56,7 @@ icmp
 
 ![Screenshot 4](4-icmp-filter.png)
 
-Small description:  
+Description:  
 ICMP echo requests and replies confirming successful network connectivity.
 
 ---
@@ -71,7 +71,7 @@ tcp
 
 ![Screenshot 5](5-tcp-filter.png)
 
-Small description:  
+Description:  
 TCP communication showing connection establishment and data transfer between systems.
 
 ---
@@ -86,7 +86,7 @@ tls
 
 ![Screenshot 6](6-tls-filter.png)
 
-Small description:  
+Description:  
 Encrypted HTTPS traffic captured, demonstrating secure communication between client and server.
 
 ---
@@ -101,7 +101,7 @@ tcp.analysis.retransmission
 
 ![Screenshot 7](7-retransmission.png)
 
-Small description:  
+Description:  
 TCP retransmissions detected, indicating minor packet delay or retransmission during communication.
 
 ---
