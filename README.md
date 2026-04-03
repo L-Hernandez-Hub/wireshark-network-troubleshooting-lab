@@ -14,7 +14,7 @@ This project demonstrates hands-on network analysis using Wireshark in a Windows
 ### 1. Launch Wireshark and Select Interface
 Opened Wireshark and selected the active Ethernet interface to begin capturing live network traffic.
 
-![Screenshot 1](1-wireshark-interface.png)
+![Screenshot 1](Screenshots/1-wireshark-interface.png)
 
 **Description:**
 Wireshark launched and active Ethernet interface selected for packet capture.
@@ -24,7 +24,7 @@ Wireshark launched and active Ethernet interface selected for packet capture.
 ### 2. Capture Live Network Traffic
 Started packet capture and generated traffic by visiting websites and running ping commands.
 
-![Screenshot 2](2-full-capture.png)
+![Screenshot 2](Screenshots/2-full-capture.png)
 
 **Description:**
 Live network traffic captured showing communication between local machine and external servers.
@@ -39,7 +39,7 @@ Applied a DNS filter to observe how domain names are resolved into IP addresses.
 dns
 ```
 
-![Screenshot 3](3-dns-filter.png)
+![Screenshot 3](Screenshots/3-dns-filter.png)
 
 **Description:**
 DNS queries and responses captured, showing domain name resolution to IP addresses.
@@ -54,7 +54,7 @@ Filtered ICMP traffic to verify connectivity between the local machine and an ex
 icmp
 ```
 
-![Screenshot 4](4-icmp-filter.png)
+![Screenshot 4](Screenshots/4-icmp-filter.png)
 
 **Description:**
 ICMP echo requests and replies confirming successful network connectivity.
@@ -69,7 +69,7 @@ Filtered TCP traffic to observe connection behavior between the client and remot
 tcp
 ```
 
-![Screenshot 5](5-tcp-filter.png)
+![Screenshot 5](Screenshots/5-tcp-filter.png)
 
 **Description:**
 TCP communication showing connection establishment and data transfer between systems.
@@ -84,7 +84,7 @@ Filtered TLS traffic to observe encrypted communication with external servers.
 tls
 ```
 
-![Screenshot 6](6-tls-filter.png)
+![Screenshot 6](Screenshots/6-tls-filter.png)
 
 **Description:**
 Encrypted HTTPS traffic captured, demonstrating secure communication between client and server.
@@ -99,7 +99,7 @@ Applied a retransmission filter to identify potential network issues.
 tcp.analysis.retransmission
 ```
 
-![Screenshot 7](7-retransmission.png)
+![Screenshot 7](Screenshots/7-retransmission.png)
 
 **Description:**
 TCP retransmissions detected, indicating minor packet delay or retransmission during communication.
